@@ -1,9 +1,15 @@
+#first-prez
+{
+    background-image: url("../img/main-top-rotated.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+
 .title-container
 {
-    float: left; 
-    position: absolute; 
-    top: 30%; 
-    left: 12.5%; 
+    padding-top: 30%;
+    padding-left: 12.5%;
     display: grid;
 }
 
@@ -13,7 +19,7 @@
     color: aliceblue; 
     font-family: 'Crimsom Text';
     
-    font-size: xxx-large; 
+    font-size: 60px; 
 }
 
 .title-secondary
@@ -22,7 +28,7 @@
     color: aqua; 
     font-family: 'Montserrat';
     
-    font-size: x-large; 
+    font-size: xx-large; 
 }
 
 .title-separator
@@ -31,6 +37,18 @@
     height: 2px; 
     width: 70px; 
     margin-top: 15px;
+}
+
+.title-second-container
+{
+    color: aliceblue; 
+    font-size: x-large;
+
+    text-align: justify;
+    width: 80%;
+    padding-top: 5%;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (max-width: 576px) 
@@ -50,5 +68,11 @@
         height: 1px; 
         width: 50px; 
         margin-top: 7.5px;
+    }
+
+    
+    .title-second-container
+    {
+        font-size: small;
     }
 }
