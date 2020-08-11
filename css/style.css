@@ -1,0 +1,54 @@
+.title-container
+{
+    float: left; 
+    position: absolute; 
+    top: 30%; 
+    left: 12.5%; 
+    display: grid;
+}
+
+.title-main
+{
+    grid-row: 1; 
+    color: aliceblue; 
+    font-family: 'Crimsom Text';
+    
+    font-size: xxx-large; 
+}
+
+.title-secondary
+{
+    grid-row: 2; 
+    color: aqua; 
+    font-family: 'Montserrat';
+    
+    font-size: x-large; 
+}
+
+.title-separator
+{
+    background-color: aliceblue; 
+    height: 2px; 
+    width: 70px; 
+    margin-top: 15px;
+}
+
+@media (max-width: 576px) 
+{ 
+    .title-main
+    {
+        font-size: x-large;
+    }
+
+    .title-secondary
+    {
+        font-size: medium;
+    }
+    
+    .title-separator
+    {
+        height: 1px; 
+        width: 50px; 
+        margin-top: 7.5px;
+    }
+}
