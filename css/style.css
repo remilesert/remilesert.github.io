@@ -1,6 +1,6 @@
 #first-prez
 {
-    background-image: url("../img/main-top-rotated.png");
+    background-image: url("../img/main-top-rotated-UHD.png");
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 1000px;
@@ -56,6 +56,7 @@
 { 
     #first-prez 
     {
+        background-image: url("../img/main-top-rotated.png");
         min-height: 500px;
     }
 
