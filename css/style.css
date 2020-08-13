@@ -58,6 +58,16 @@
     transform: translateX(-50%);
 }
 
+
+@media (max-width: 768px) 
+{
+    .title-second-container
+    {
+        font-size: large;
+        width: 60%;
+    }
+}
+
 @media (max-width: 576px) 
 { 
     .navbar-custom
@@ -91,6 +101,7 @@
     
     .title-second-container
     {
+        width: 80%;
         font-size: small;
     }
 }
