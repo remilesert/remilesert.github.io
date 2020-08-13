@@ -100,7 +100,8 @@
 .realizations-prez
 {
     display: flex;
-    margin: 30px 15%;
+    margin: 30px auto;
+    max-width: 1000px;
 }
 
 .realization
@@ -118,8 +119,28 @@
     background-color: blueviolet;
 }
 
-@media (max-width: 576px) 
+@media (max-width: 768px) 
 { 
+    .realizations-prez
+    {        
+        display: flex;
+    }
+
+    .realization
+    {
+        height: 320px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 576px) 
+{
+    .realization
+    {
+        height: 400px;
+        width: 250px;
+    } 
+
     .realizations-prez
     {
         display: block;
