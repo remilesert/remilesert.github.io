@@ -16,13 +16,19 @@ function getUrlParameter(sParam) {
 
 $(document).ready(function () 
 {
+    $("#navbar-placeholder").load("/pages/navbar.html");
+    $("#footer-placeholder").load("/pages/footer.html");
+
     var pageName = getUrlParameter("page");
     
 
     fetch("/pages/realizationData/" + pageName + ".json").then((response) => {
         response.json().then((data) => { 
-            $(document).attr('title', Mustache.render($(document).attr('title'), data));
-            console.log(data);
+
+            document.title = Mustache.render(document.title, data)
+
+            document.body.innerHTML = Mustache.render(document.body.innerHTML, data);
+            
         });
     })
 })
