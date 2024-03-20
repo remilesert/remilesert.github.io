@@ -1,8 +1,9 @@
 ---
 Title : CMA - RENCONTRE 
-Category : AR, Applications
+Category : Unity, C#, AR Fondation, HLSL
 Banner : /projects/resources/Fond_Projets_CMA.jpg
-Pitch : La théorie d'un shader de nuages sans lumière, mais dans un style plutôt réaliste, grâce aux normales de l'objet.
+Date : 11.2021 - 12.2021
+Pitch : Production d'une application de réalité augmentée associée à l'oeuvre \"La Rencontre\" de Phil Macquet, exposée à la CMA de Lille. L'application est disponible sur l'Apple Store.
 Gallery : 
 <row>
 /img/realizations/CMA/CMA_08_low.jpg
@@ -33,3 +34,4 @@ Gallery :
 En collaboration avec le studio V-Cult, nous avons réalisé une application en réalité augmentée mettant en avant l’artisanat.<br> Depuis l'œuvre de Phil macquet exposé à la Chambre des métiers et de l’artisanat de Lille, l'application vous permet de superposer une série de mini-jeux et d'animation sur le tableau.
 Il suffit d'ouvrir l'application, de viser l'oeuvre à l'aide de son téléphone.<br> L'application détecte les formes dissimulées dans l'oeuvre et lance les expériences en fonction de l'endroit ou vous visez.  
 <br>
+J'ai pu organiser cette production et géré la relation client. J'ai développé la moitié des interactions ainsi que le shader HLSL servant à l'effet final de jeux à gratter pour révéler une vidéo. Le fond flouté de cette vidéo est lui aussi un shader HLSL sur lequel j'ai travaillé.<br>
