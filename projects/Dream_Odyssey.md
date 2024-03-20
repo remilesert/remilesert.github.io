@@ -1,7 +1,8 @@
 ---
 Title : DREAM ODYSSEY 
-Category : VR, Games
+Category : Unity, C#, Git, Github, OpenXR, HLSL, Github Actions, GameCI
 Banner : /projects/resources/Fond_Projets_DO.jpg
+Date : 05.2021 - 03.2024
 Pitch : Dream Odyssey est un Puzzle game en VR.<br/>Projeté dans un rêve, vous incarnez Billy, un jeune amoureux d'astronomie, qui doit aider son jouet préféré à retourner sur sa planète.
 Gallery : 
 <row>
@@ -24,7 +25,12 @@ Dream Odyssey est un puzzle game en réalité virtuelle, compatible sur Quest et
 <Br>
 Bubbles, le compagnon de Billy, n'hésite pas à lui donner des ordres, à lui montrer son impatience. Il est à la fois un atout pour les énigmes, mais aussi une distraction pour le joueur. Il a cette position d’allié, mais s’il fallait un antagoniste dans cette aventure, il pourrait également en porter la couronne puisqu’il pense avant tout à lui, peu importe les conséquences.
 <Br>
-Venez essayer notre expérience de 30min, en cliquant sur le lien ci-dessous : 
+<br>
+Sur ce projet, j'ai pu organiser, découper et répartir les tâches de production. J'ai également pu participer au montage de 3 dossiers de financement (CNC, Plaine Image et Pictanovo).<br>
+J'ai participé à la conception du jeu, à la rédaction du game design document, et à la mise en place d'une intégration continue avec Github Action.
+Enfin, pour la production, j'ai pu réaliser la moitié du gameplay, et tous les effets visuels visuels basés sur des shader HLSL.<br>
+<br><br>
+Vous pouvez essayer notre expérience de 20min, en cliquant sur le lien ci-dessous : 
 <Br>
 <Br>
-<div class="project-button-container"><a class="py-2 px-3 mx-auto project-button" href="https://www.meta.com/fr-fr/experiences/5537831532919275/?utm_source=www.youtube.com&utm_medium=oculusredirect">Cliquez ici pour en découvrir encore plus !</a><div>
+<div class="project-button-container"><a class="py-2 px-3 mx-auto project-button" href="https://www.meta.com/fr-fr/experiences/5537831532919275/?utm_source=www.youtube.com&utm_medium=oculusredirect">Cliquez ici pour découvrir la page AppLab !</a><div>

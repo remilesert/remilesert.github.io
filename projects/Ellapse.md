@@ -1,8 +1,9 @@
 ---
 Title : ELLAPSE
-Category : VR, Applications
+Category : Unity, Shadergraph, HLSL
 Banner : /projects/resources/Fond_Projets_Ellapse.jpg
-Pitch : Anxieux, stressé ? Grâce à Ellapse profiter de séances de méditation en réalité virtuelle au beau milieu de paysages extraordinaires, vous, seul avec la nature.
+Date : 02.2021 - 03.2021
+Pitch : Production d'environnements pour l'application de thérapie par l'hypnose et de détente d'une startup de la Plaine Image.
 Gallery : 
 <row>
 /img/realizations/Ellapse/Ellapse_01_low.jpg
@@ -26,5 +27,5 @@ Gallery :
 ## Informations
 
 Nous avons travaillé sur 4 lieux de détente dont l’objectif est de mettre le patient dans des conditions optimales pour la séance.
-L’expérience vous offre les outils pour apprendre à gérer votre stress et anxiété. Bénéficier d’une initiation à la cohérence cardiaque. Laissez-vous guider par les voix et les sons pour profiter de la relaxation musculaire. 
-
+<br>
+J'ai pu réaliser des shader HLSL, dont un avec une geometry function, compatibles VR Quest 1.<br> Dans ces shader on trouve : l'herbe avec un effet de vent, l'eau avec un reflet miroir et l'eau avec des vaguelettes.<br>
