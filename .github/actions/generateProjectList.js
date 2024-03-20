@@ -86,6 +86,7 @@ function GetFileContentXML(fileName, fileContent, isLastFile) {
     xmlContent += SurroundWithTag(file.Title, "title", false, true, 2) + newLine;
     xmlContent += SurroundWithTag(file.Category, "category", false, true, 2) + newLine;
     xmlContent += SurroundWithTag(file.Banner, "image", false, true, 2) + newLine;
+    xmlContent += SurroundWithTag(file.Date, "date", false, true, 2) + newLine;
     xmlContent += SurroundWithTag(file.Pitch, "preview", false, true, 2) + newLine;
     xmlContent += SurroundWithTag(file.Gallery, "gallery", true, false, 2);
 
@@ -131,6 +132,7 @@ function GetFileObject(fileName, text) {
     file.Title = lineArray[index++].replace('Title : ', '');
     file.Category = lineArray[index++].replace('Category : ', '').replace('\r', '');
     file.Banner = lineArray[index++].replace('Banner : ', '');
+    file.Date = lineArray[index++].replace('Date : ', '');
     file.Pitch = lineArray[index++].replace('Pitch : ', '');
 
     // Gallery
