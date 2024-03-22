@@ -1,8 +1,8 @@
 ---
 Title : ROOM BUILDER
-Category : VR, Applications, Architecture
+Category : Unity, C#, OpenXR
 Banner : /projects/resources/Fond_Projets_RB.jpg
-Pitch : Aménagez vos espaces à l’aide de votre banque de mobilier, en direct avec votre client.<br/>Terminez par la visite des lieux dans une autre dimension grâce au casque de réalité virtuelle.
+Pitch : Création d'une application VR d'aménagement de bureau.
 Gallery : 
 <row>
 /img/realizations/Room_Builder/RoomBuilder_01_low.jpg
@@ -28,8 +28,7 @@ Gallery :
 
 ## Présentation
 <br>
-Grâce à notre application en réalité virtuelle, vous pouvez agencer vos pièces comme bon vous semble ! Placez votre mobilier à l’endroit idéal et choisissez le colori souhaité pour harmoniser l’ensemble en quelques clics. 
-Depuis chez vous ou chez votre client, immergez-vous dans vos aménagements et partagez un moment unique et ludique.<br>
-Accessible sur les casques en réalité virtuelle filaire ou autonome, il vous est possible de retransmettre ce que vous ou votre client confectionnez dans le casque, pour le partager sur un écran mobile ou une télévision. 
-Pour plus d'informations, n’hésitez pas à nous contacter sur <a href=mailto:contact@terref.io>contact@terref.io</a>
+Nous avons créé une application VR multi-support (pour casques filaires et autonomes) qui permet d'aménager des bureaux avec les meubles d'un revendeur de mobilier.<br>
+L'objectif est des pouvoir prévoir les aménagements des clients, et leur laisser le controle sur ce qu'ils désirent placer, et comment ils désirent le placer dans leurs locaux.<br>
 <br>
+Sur ce projet, j'ai pu réaliser la moitié de la programmation, notamment les interactions avec l'UI, et le controller de déplacement de l'utilisatuer.<br>
