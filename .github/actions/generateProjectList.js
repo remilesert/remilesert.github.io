@@ -40,7 +40,7 @@ function StoreProjectDataThenWriteToList(dirName) {
             fs.readFile(dirName + fileName, 'utf-8', function (err, content) {
                 if (err)
                     throw err;
-
+                console.log("Reading project : " + fileName);
                 StoreProjectData(fileName, content);
             });
         });

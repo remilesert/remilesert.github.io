@@ -4,6 +4,7 @@ Category : Unity, C#, WebGL, HLSL
 Banner : /projects/resources/Fond_Projets.jpg
 Date : 09.2021 - 11.2021
 Pitch : Visite 360 d'un studio de tournage, accessible depuis un navigateur web
+Gallery : 
 ---
 
 # Visite d'un plateau de tournage

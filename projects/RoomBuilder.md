@@ -2,6 +2,7 @@
 Title : ROOM BUILDER
 Category : Unity, C#, OpenXR
 Banner : /projects/resources/Fond_Projets_RB.jpg
+Date : 07.2023 - 09.2023
 Pitch : Création d'une application VR d'aménagement de bureau.
 Gallery : 
 <row>
