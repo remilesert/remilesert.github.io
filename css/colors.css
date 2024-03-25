@@ -12,7 +12,8 @@ body {
     --lm-background-secondary: #ffffff;
 
     /* common */
-    --c-navbar: #646464BF;
+    --lm-navbar: #CCCCCCF7;
+    --dm-navbar: #646464F7;
     --c-link-bw: #fafafa;
     --c-link: #0090F8;
     --c-line: #3083BE;
@@ -27,7 +28,7 @@ body {
     --line: var(--c-line);
     --background-primary: var(--lm-background-primary);
     --background-secondary: var(--lm-background-secondary);
-    --navbar: var(--c-navbar);
+    --navbar: var(--lm-navbar);
 }
 
 /* Dark theme */
@@ -39,7 +40,7 @@ body.dark-theme {
     --line: var(--c-line);
     --background-primary: var(--dm-background-primary);
     --background-secondary: var(--dm-background-secondary);
-    --navbar: var(--c-navbar);
+    --navbar: var(--dm-navbar);
 }
   
 @media (prefers-color-scheme: dark) {
@@ -53,7 +54,7 @@ body.dark-theme {
         --line: var(--c-line);
         --background-primary: var(--dm-background-primary);
         --background-secondary: var(--dm-background-secondary);
-        --navbar: var(--c-navbar);
+        --navbar: var(--dm-navbar);
     }
 
     /* Light theme */
@@ -65,7 +66,7 @@ body.dark-theme {
         --line: var(--c-line);
         --background-primary: var(--lm-background-primary);
         --background-secondary: var(--lm-background-secondary);
-        --navbar: var(--c-navbar);
+        --navbar: var(--lm-navbar);
     }
 }
 
