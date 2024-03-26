@@ -60,20 +60,45 @@
 
     <div class="c-bg-secondary ct-secondary py-5">
 
-      <div class="title-second-container ">
+      <div class="title-second-container mb-5">
         <h2>Découvrir mes réalisations</h2>
         <div class="title-separator mx-auto mt-3" style="width: 30%;"></div>
       </div>
 
-      <div id="realizations-prez">
-
-
+      <div id="realization-list">
 
       </div>
 
       <div class="py-3"></div>
     </div>
   </div>
+
+  <template id="project-template">
+    <div class="container" style="cursor: pointer;" onmousedown="OpenProject(event, '{{PROJECTFILENAME}}');">
+      <div class="row">
+        <div class="col">
+          <h3>
+            {{PROJECTTITLE}}
+          </h3>
+          <h5>
+            {{PROJECTCATEGORY}}
+          </h5>
+          <div >
+            {{PROJECTDATE}}
+          </div>
+          <div >
+            {{PROJECTDESCRIPTION}}
+          </div>
+        </div>
+        
+        <div class="col-md-4 align-self-center m-md-0 my-2 mx-sm-5 mx-2">
+            <img class="img_lowres img-fluid" src="{{PROJECTIMAGE}}">
+            <img class="img_highres img-fluid">
+        </div>
+      </div>
+    </div>
+
+  </template>
 
   <!-- Scripts -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
