@@ -6,6 +6,15 @@ $(document).ready(function ()
     LoadURL("/pages/navbar.html" + version, false, onLoadNavbar);
     LoadURL("/pages/footer.html" + version, true, nullFunc);
     LoadJS('/scripts/iosBehavior.js', null, document.body);
+    
+    onLoadNavbar.push(function() {
+        $('.navbar-nav li a').on('click', function(){
+            if(!$( this ).hasClass('dropdown-toggle')){
+                $('.navbar-collapse').collapse('hide');
+            }
+        });
+        
+    });
 });
 
 function LoadURL(url, bottom = false, onload) {
