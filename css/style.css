@@ -1,3 +1,11 @@
+body {
+    scroll-behavior: smooth;
+}
+
+html #first-prez, html #terref, html #mycyberroyame, html #enseignement, html #footer {
+    scroll-margin: 60px !important;
+}
+
 .navbar-custom
 {
     background-color: var(--navbar); 

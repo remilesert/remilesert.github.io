@@ -72,7 +72,7 @@
   </div>
 
   <template id="project-template">
-    <div class="container border-bottom mt-4" style="cursor: pointer;" onmousedown="OpenProject(event, '{{PROJECTFILENAME}}');">
+    <div id="{{SETID}}" class="container border-bottom mt-4" style="cursor: pointer;" onmousedown="OpenProject(event, '{{PROJECTFILENAME}}');">
       <div class="row">
         <div class="col">
           <div class="ct-secondary fw-light">
@@ -112,7 +112,6 @@
 
   <!-- Custom Scripts -->
   <script type="text/javascript" src="scripts/dryLoader.js?V1.0.0"></script>
-  <script type="text/javascript" src="scripts/navigation.js?V1.0.0" data-active-page="nav-binding-index"></script>
   <script src="scripts/index.js?V1.0.0"></script>
 
 </body>

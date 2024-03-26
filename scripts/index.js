@@ -1,14 +1,12 @@
 var fadeTime = 300;
 var realizationsXML;
+var version = "?V1.0.0"
 
 // Events
 var projectListLoaded = [];
 
 $(document).ready(function () 
 {
-    // $("#linkedin-link").on('click', function (){window.open("https://www.linkedin.com/in/remi-lesert/");});
-    // $("#mail-link").on('click', function (){window.open("mailto:remi.lesert@gmail.com");});
-
     projectTemplate = document.getElementById("project-template").innerHTML;
 
     xhttp = new XMLHttpRequest();
@@ -67,6 +65,9 @@ function MainListHTML(projectMaxIndex, projectList) {
         html = html.replace("{{PROJECTCATEGORY}}", projectList[index].getElementsByTagName("category")[0].childNodes[0].nodeValue);
         html = html.replace("{{PROJECTDATE}}", projectList[index].getElementsByTagName("date")[0].childNodes[0].nodeValue);
         html = html.replace("{{PROJECTDESCRIPTION}}", projectList[index].getElementsByTagName("preview")[0].childNodes[0].nodeValue);
+        
+
+        html = html.replace("{{SETID}}", index == 0 ? "terref" : index == 10 ? "mycyberroyame" : "");
         
         if(index == projectMaxIndex - 1)
         {
