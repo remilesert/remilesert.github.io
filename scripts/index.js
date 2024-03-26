@@ -6,8 +6,8 @@ var projectListLoaded = [];
 
 $(document).ready(function () 
 {
-    $("#linkedin-link").on('click', function (){window.open("https://www.linkedin.com/in/remi-lesert/");});
-    $("#mail-link").on('click', function (){window.open("mailto:remi.lesert@gmail.com");});
+    // $("#linkedin-link").on('click', function (){window.open("https://www.linkedin.com/in/remi-lesert/");});
+    // $("#mail-link").on('click', function (){window.open("mailto:remi.lesert@gmail.com");});
 
     projectTemplate = document.getElementById("project-template").innerHTML;
 
@@ -44,11 +44,11 @@ function GenerateRealizationList() {
             
             if(aProjectDates[1].slice(-4) != bProjectDates[1].slice(-4))
             {
-                return aProjectDates[1].slice(-4) < bProjectDates[1].slice(-4);
+                return bProjectDates[1].slice(-4) - aProjectDates[1].slice(-4);
             }
             else
             {
-                return aProjectDates[1].slice(0,2) < bProjectDates[1].slice(0,2);
+                return bProjectDates[1].slice(0,2) - aProjectDates[1].slice(0,2);
             }
            
         }
@@ -68,9 +68,26 @@ function MainListHTML(projectMaxIndex, projectList) {
         html = html.replace("{{PROJECTDATE}}", projectList[index].getElementsByTagName("date")[0].childNodes[0].nodeValue);
         html = html.replace("{{PROJECTDESCRIPTION}}", projectList[index].getElementsByTagName("preview")[0].childNodes[0].nodeValue);
         
-        // html = html.replace("{{BACKGROUNDCOLOR}}", index % 2 == 0 ? "c-bg-primary" : "c-bg-secondary");
+        if(index == projectMaxIndex - 1)
+        {
+            html = html.replace("border-bottom", "");
+        }
 
         // Ajoute l'élément sans recharger la div parent, cela évite de relancer les animations
         document.getElementById("realization-list").insertAdjacentHTML('beforeend', html);
+    }
+}
+
+function OpenProject(event, fileName) {
+    var link = 'pages/realization.html?name=' + fileName;
+    switch (event.button) {
+        case 0:
+            window.open(link, '_self');
+            break;
+        case 1:
+            window.open(link);
+            break;
+        default:
+            break;
     }
 }
