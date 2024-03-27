@@ -128,11 +128,10 @@ html #first-prez, html #terref, html #mycyberroyame, html #enseignement, html #f
     font-size: x-large; 
 }
 
-.custom-realization-border
+.custom-teaching-border
 {
-    border-bottom : 1px solid var(--ct-primary);
+    border-bottom : 1px solid var(--text-primary);
 }
-
 
 @media (max-width: 576px) 
 { 
