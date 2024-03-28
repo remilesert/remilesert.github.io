@@ -15,14 +15,10 @@ $(document).ready(function ()
 
             GenerateRealizationList();
 
-            // if (projectListLoaded.length > 0) {
-            //     for (var i = 0; i < projectListLoaded.length; i++) {
-            //         projectListLoaded[i]();
-            //     }
-            // }
-            // else {
-            //     projectListLoaded();
-            // }
+            
+            if (window.location.hash != null) {
+                $(window.location.hash)[0].scrollIntoView({behavior: 'smooth'});
+            }
         }
     };
     xhttp.open("GET", "/projects/list.xml", true);

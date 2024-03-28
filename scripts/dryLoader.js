@@ -13,7 +13,15 @@ $(document).ready(function ()
                 $('.navbar-collapse').collapse('hide');
             }
         });
-        
+
+        if(window.location.pathname.includes("realization.html"))
+        {
+            $('.nav-link').each(function()
+            {
+                this.href =  "/index.html" + this.href.replace(window.location.href, "");
+            });
+        }
+            
     });
 });
 
