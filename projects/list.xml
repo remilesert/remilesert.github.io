@@ -1,0 +1,198 @@
+<list>
+	<project>
+		<filename>RoomBuilder</filename>
+		<title>ROOM BUILDER</title>
+		<category>Unity, C#, OpenXR</category>
+		<image>/projects/resources/Fond_Projets_RB.jpg</image>
+		<date>07.2023 - 09.2023</date>
+		<preview>Création d'une application VR d'aménagement de bureau.</preview>
+		<gallery>
+			<row>
+				/img/realizations/Room_Builder/RoomBuilder_01_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_02_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_03_low.jpg
+			</row>
+			<row>
+				/img/realizations/Room_Builder/RoomBuilder_04_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_05_low.jpg
+			</row>
+			<row>
+				/img/realizations/Room_Builder/RoomBuilder_06_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_07_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_08_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>VRRoom_Theater</filename>
+		<title>VrRoom Theater</title>
+		<category>VR, Metavers</category>
+		<image>/projects/resources/Fond_Projets_VRRoom.jpg</image>
+		<date>09.2023 - 01.2024</date>
+		<preview>Réalisation d’un théâtre mélangeant un style victorien et punk sur le metaverse Vrroom.</preview>
+		<gallery>
+			<row>
+				/img/realizations/VRRoom_Theater/Vroom_Theatre_03_low.jpg
+				/img/realizations/VRRoom_Theater/Vroom_Theatre_02_low.jpg
+				/img/realizations/VRRoom_Theater/Vroom_Theatre_01_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>SportsTrackLive_Map</filename>
+		<title>SPORTSTRACKLIVE - CARTE</title>
+		<category>HLSL, C#</category>
+		<image>/projects/resources/Fond_Projets_Sportstracklive.jpg</image>
+		<date>03.2021 - 05.2021</date>
+		<preview>Production d'une carte haute performance pour l'application sportive mobile SportsTrackLive</preview>
+		<gallery>
+
+		</gallery>
+	</project>
+	<project>
+		<filename>Prosanor</filename>
+		<title>PROSANOR</title>
+		<category>Unity, C#, HLSL</category>
+		<image>/projects/resources/Fond_Projets.jpg</image>
+		<date>01.2021 - 07.2021</date>
+		<preview>Création d'environnements et de modules logiques pour une application médicale à destination des troubles de l'anorexie.</preview>
+		<gallery>
+
+		</gallery>
+	</project>
+	<project>
+		<filename>GoodCells</filename>
+		<title>GOODCELLS - MY CYBER ROYAUME</title>
+		<category>Unity, C#, WPF, Git, Gitlab, Windows, Powershell, SteamVR API</category>
+		<image>/projects/resources/Fond_Projets_MCR.jpg</image>
+		<date>07.2018 - 08.2020</date>
+		<preview>Application médicale en réalité virtuelle pour evaluer les troubles cognitifs dans un environnement non stressant.</preview>
+		<gallery>
+			<row>
+				/img/realizations/Astrea/Astrea_04_low.jpg
+				/img/realizations/Astrea/Astrea_02_low.jpg
+				/img/realizations/Astrea/Astrea_01_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>Ellapse</filename>
+		<title>ELLAPSE</title>
+		<category>Unity, Shadergraph, HLSL</category>
+		<image>/projects/resources/Fond_Projets_Ellapse.jpg</image>
+		<date>02.2021 - 03.2021</date>
+		<preview>Production d'environnements pour l'application de thérapie par l'hypnose et de détente d'une startup de la Plaine Image.</preview>
+		<gallery>
+			<row>
+				/img/realizations/Ellapse/Ellapse_01_low.jpg
+				/img/realizations/Ellapse/Ellapse_04_low.jpg
+			</row>
+			<row>
+				/img/realizations/Ellapse/Ellapse_03_low.jpg
+				/img/realizations/Ellapse/Ellapse_02_low.jpg
+			</row>
+				
+		</gallery>
+	</project>
+	<project>
+		<filename>CMA</filename>
+		<title>CMA - RENCONTRE </title>
+		<category>Unity, C#, AR Fondation, HLSL</category>
+		<image>/projects/resources/Fond_Projets_CMA.jpg</image>
+		<date>11.2021 - 12.2021</date>
+		<preview>Production d'une application de réalité augmentée associée à l'oeuvre \"La Rencontre\" de Phil Macquet, exposée à la CMA de Lille. L'application est disponible sur l'Apple Store.</preview>
+		<gallery>
+			<row>
+				/img/realizations/CMA/CMA_08_low.jpg
+				/img/realizations/CMA/CMA_09_low.jpg
+				/img/realizations/CMA/CMA_02_low.jpg
+			</row>
+			<row>
+				/img/realizations/CMA/CMA_03_low.jpg
+				/img/realizations/CMA/CMA_01_low.jpg
+				/img/realizations/CMA/CMA_07_low.jpg
+				/img/realizations/CMA/CMA_05_low.jpg
+			</row>
+			<row>
+				/img/realizations/CMA/CMA_04_low.jpg
+				/img/realizations/CMA/CMA_06_low.jpg
+				/img/realizations/CMA/CMA_10_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>Aurora_Visit</filename>
+		<title>STUDIO TOUR - AURORA</title>
+		<category>Unity, C#, WebGL, HLSL</category>
+		<image>/projects/resources/Fond_Projets.jpg</image>
+		<date>09.2021 - 11.2021</date>
+		<preview>Visite 360 d'un studio de tournage, accessible depuis un navigateur web</preview>
+		<gallery>
+
+		</gallery>
+	</project>
+	<project>
+		<filename>Dream_Odyssey</filename>
+		<title>DREAM ODYSSEY </title>
+		<category>Unity, C#, Git, Github, OpenXR, HLSL, Github Actions, GameCI</category>
+		<image>/projects/resources/Fond_Projets_DO.jpg</image>
+		<date>05.2021 - 03.2024</date>
+		<preview>Dream Odyssey est un Puzzle game en VR.<br/>Projeté dans un rêve, vous incarnez Billy, un jeune amoureux d'astronomie, qui doit aider son jouet préféré à retourner sur sa planète.</preview>
+		<gallery>
+			<row>
+				/img/realizations/DreamOdyssey/Rendus_Chambre/DO_Rendu_1_low.jpg
+				/img/realizations/DreamOdyssey/Rendus_Chambre/DO_Rendu_2_low.jpg
+				/img/realizations/DreamOdyssey/Rendus_Chambre/DO_Rendu_3_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>Bloom</filename>
+		<title>BLOOM</title>
+		<category>Unity, C#, Git, Github, UdonSharp, HLSL, Github Action, GameCI</category>
+		<image>/projects/resources/Fond_Projets_Bloom.jpg</image>
+		<date>07.2022 - 08.2023</date>
+		<preview>Expérience VR d'une durée de 16 minutes produite par Terref et éditée par une société suisse. Elle est selectionnée au festival Giff de Genève et est exposé par le fiaf à New York.</preview>
+		<gallery>
+			<row>
+				/img/realizations/Bloom/Bloom_10_low.jpg
+				/img/realizations/Bloom/Bloom_07_low.jpg
+			</row>
+			<row>
+				/img/realizations/Bloom/Bloom_02_low.jpg
+				/img/realizations/Bloom/Bloom_04_low.jpg
+				/img/realizations/Bloom/Bloom_08_low.jpg
+				/img/realizations/Bloom/Bloom_09_low.jpg
+			</row>
+			<row>
+				/img/realizations/Bloom/Bloom_03_low.jpg
+				/img/realizations/Bloom/Bloom_06_low.jpg
+				/img/realizations/Bloom/Bloom_01_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>Astrea</filename>
+		<title>SHOWROOM ATLAS V - ASTREA</title>
+		<category>Unity, VRChat, Udon</category>
+		<image>/projects/resources/Fond_Projets_Astrea.jpg</image>
+		<date>11.2021 - 11.2021</date>
+		<preview>Création d’un espace Metaverse dans lequel les équipes d’Astrea et Atlas V ont pu recevoir leurs partenaires lors de l’événement IDFA DocLAb,<br/>pour discuter autour d'un verre virtuel et présenter leurs différents projets le temps d’une soirée.</preview>
+		<gallery>
+			<row>
+				/img/realizations/Astrea/Astrea_04_low.jpg
+				/img/realizations/Astrea/Astrea_02_low.jpg
+				/img/realizations/Astrea/Astrea_01_low.jpg
+			</row>
+			<row>
+				/img/realizations/Astrea/Astrea_05_low.jpg
+				/img/realizations/Astrea/Astrea_06_low.jpg
+			</row>
+			<row>
+				/img/realizations/Astrea/Astrea_09_low.jpg
+				/img/realizations/Astrea/Astrea_06_low.jpg
+				/img/realizations/Astrea/Astrea_08_low.jpg
+			</row>
+		</gallery>
+	</project>
+</list>

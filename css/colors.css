@@ -1,0 +1,131 @@
+body {
+    /* dark mode */
+    --dm-text-primary: #f0f8ff;
+    --dm-text-secondary: #00ffff;
+    --dm-background-primary: #4d4d4d;
+    --dm-background-secondary: #181818;
+
+    /* light mode */
+    --lm-text-primary: #323232;
+    --lm-text-secondary: #003535;
+    --lm-background-primary: #e6e6e6;
+    --lm-background-secondary: #ffffff;
+
+    /* common */
+    --lm-navbar: #CCCCCCF7;
+    --dm-navbar: #646464F7;
+    --c-link-bw: #fafafa;
+    --c-link: #00b0b0;
+    --c-line: #00a3a3;
+}
+
+/* Light theme */
+body {
+    --text-primary: var(--lm-text-primary);
+    --text-secondary:  var(--lm-text-secondary);
+    --link-bw: var(--c-link-bw);
+    --link: var(--c-link);
+    --line: var(--c-line);
+    --background-primary: var(--lm-background-primary);
+    --background-secondary: var(--lm-background-secondary);
+    --navbar: var(--lm-navbar);
+}
+
+/* Dark theme */
+body.dark-theme {
+    --text-primary: var(--dm-text-primary);
+    --text-secondary:  var(--dm-text-secondary);
+    --link-bw: var(--c-link-bw);
+    --link: var(--c-link);
+    --line: var(--c-line);
+    --background-primary: var(--dm-background-primary);
+    --background-secondary: var(--dm-background-secondary);
+    --navbar: var(--dm-navbar);
+}
+  
+@media (prefers-color-scheme: dark) {
+
+    /* Dark theme */
+    body { 
+        --text-primary: var(--dm-text-primary);
+        --text-secondary:  var(--dm-text-secondary);
+        --link-bw: var(--c-link-bw);
+        --link: var(--c-link);
+        --line: var(--c-line);
+        --background-primary: var(--dm-background-primary);
+        --background-secondary: var(--dm-background-secondary);
+        --navbar: var(--dm-navbar);
+    }
+
+    /* Light theme */
+    body.light-theme {
+        --text-primary: var(--lm-text-primary);
+        --text-secondary:  var(--lm-text-secondary);
+        --link-bw: var(--c-link-bw);
+        --link: var(--c-link);
+        --line: var(--c-line);
+        --background-primary: var(--lm-background-primary);
+        --background-secondary: var(--lm-background-secondary);
+        --navbar: var(--lm-navbar);
+    }
+}
+
+.ct-primary
+{
+    color: var(--text-primary);
+}
+
+.ct-secondary
+{
+    color: var(--text-secondary);
+}
+
+.c-link-bw
+{
+    background-color: var(--link-bw);
+}
+
+.c-link
+{
+    background-color: var(--link);
+}
+
+.ct-link
+{
+    color: var(--link);
+}
+
+.c-line
+{
+    background-color: var(--line);
+}
+
+.c-bg-primary 
+{
+    background-color: var(--background-primary);
+}
+
+.c-bg-secondary 
+{
+    background-color: var(--background-secondary);
+}
+
+.c-navbar
+{
+    background-color: var(--navbar);
+}
+
+.ct-dm-primary
+{
+    color: var(--dm-text-primary);
+}
+
+.c-dm-bg-primary
+{
+    background-color: var(--dm-background-primary);
+}
+
+.ct-lm-primary
+{
+    color: var(--lm-text-primary);
+}

@@ -1,0 +1,41 @@
+# Name of the workflow
+name: Generate Project List
+
+# Run workflow on push to master
+on:
+  push:
+    branches:
+      - master
+
+# Steps to carry out
+jobs:
+  build:
+    # Create a ubuntu virtual machine
+    runs-on: ubuntu-latest
+
+    # Checkout the repo code
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    # Install node
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.16
+    - run: npm install
+
+    # Run script "generateProjectList.js"
+    - name: Update Article List
+      run: |-
+        node .github/actions/generateProjectList.js
+
+    # Commit changes
+    - name: Commit and push changes
+      run: |-
+        git diff
+        git config --global user.email "action@terref.io"
+        git config --global user.name "Action"
+        git add -A
+        git commit -m "[Action] Generate Project List" || exit 0
+        git push
