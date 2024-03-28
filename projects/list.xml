@@ -15,17 +15,6 @@
 		</gallery>
 	</project>
 	<project>
-		<filename>SportsTrackLive_Map</filename>
-		<title>SPORTSTRACKLIVE - CARTE</title>
-		<category>HLSL, C#</category>
-		<image>/projects/resources/Fond_Projets_Sportstracklive.jpg</image>
-		<date>03.2021 - 05.2021</date>
-		<preview>Production d'une carte haute performance pour l'application sportive mobile SportsTrackLive</preview>
-		<gallery>
-
-		</gallery>
-	</project>
-	<project>
 		<filename>RoomBuilder</filename>
 		<title>ROOM BUILDER</title>
 		<category>Unity, C#, OpenXR</category>
@@ -47,6 +36,28 @@
 				/img/realizations/Room_Builder/RoomBuilder_07_low.jpg
 				/img/realizations/Room_Builder/RoomBuilder_08_low.jpg
 			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>GoodCells</filename>
+		<title>GOODCELLS - MY CYBER ROYAUME</title>
+		<category>Unity, C#, WPF, Git, Gitlab, Windows, Powershell, SteamVR API</category>
+		<image>/projects/resources/Fond_Projets_MCR.jpg</image>
+		<date>07.2018 - 08.2020</date>
+		<preview>Application médicale en réalité virtuelle pour evaluer les troubles cognitifs dans un environnement non stressant.</preview>
+		<gallery>
+
+		</gallery>
+	</project>
+	<project>
+		<filename>SportsTrackLive_Map</filename>
+		<title>SPORTSTRACKLIVE - CARTE</title>
+		<category>HLSL, C#</category>
+		<image>/projects/resources/Fond_Projets_Sportstracklive.jpg</image>
+		<date>03.2021 - 05.2021</date>
+		<preview>Production d'une carte haute performance pour l'application sportive mobile SportsTrackLive</preview>
+		<gallery>
+
 		</gallery>
 	</project>
 	<project>
@@ -80,17 +91,6 @@
 		</gallery>
 	</project>
 	<project>
-		<filename>GoodCells</filename>
-		<title>GOODCELLS - MY CYBER ROYAUME</title>
-		<category>Unity, C#, WPF, Git, Gitlab, Windows, Powershell, SteamVR API</category>
-		<image>/projects/resources/Fond_Projets_MCR.jpg</image>
-		<date>07.2018 - 08.2020</date>
-		<preview>Application médicale en réalité virtuelle pour evaluer les troubles cognitifs dans un environnement non stressant.</preview>
-		<gallery>
-
-		</gallery>
-	</project>
-	<project>
 		<filename>Dream_Odyssey</filename>
 		<title>DREAM ODYSSEY </title>
 		<category>Unity, C#, Git, Github, OpenXR, HLSL, Github Actions, GameCI</category>
@@ -103,43 +103,6 @@
 				/img/realizations/DreamOdyssey/Rendus_Chambre/DO_Rendu_2_low.jpg
 				/img/realizations/DreamOdyssey/Rendus_Chambre/DO_Rendu_3_low.jpg
 			</row>
-		</gallery>
-	</project>
-	<project>
-		<filename>CMA</filename>
-		<title>CMA - RENCONTRE </title>
-		<category>Unity, C#, AR Fondation, HLSL</category>
-		<image>/projects/resources/Fond_Projets_CMA.jpg</image>
-		<date>11.2021 - 12.2021</date>
-		<preview>Production d'une application de réalité augmentée associée à l'oeuvre 'La Rencontre' de Phil Macquet, exposée à la CMA de Lille. L'application est disponible sur l'Apple Store.</preview>
-		<gallery>
-			<row>
-				/img/realizations/CMA/CMA_08_low.jpg
-				/img/realizations/CMA/CMA_09_low.jpg
-				/img/realizations/CMA/CMA_02_low.jpg
-			</row>
-			<row>
-				/img/realizations/CMA/CMA_03_low.jpg
-				/img/realizations/CMA/CMA_01_low.jpg
-				/img/realizations/CMA/CMA_07_low.jpg
-				/img/realizations/CMA/CMA_05_low.jpg
-			</row>
-			<row>
-				/img/realizations/CMA/CMA_04_low.jpg
-				/img/realizations/CMA/CMA_06_low.jpg
-				/img/realizations/CMA/CMA_10_low.jpg
-			</row>
-		</gallery>
-	</project>
-	<project>
-		<filename>Aurora_Visit</filename>
-		<title>STUDIO TOUR - AURORA</title>
-		<category>Unity, C#, WebGL, HLSL</category>
-		<image>/projects/resources/Fond_Projets_Aurora.png</image>
-		<date>09.2021 - 11.2021</date>
-		<preview>Visite 360 d'un studio de tournage, accessible depuis un navigateur web</preview>
-		<gallery>
-
 		</gallery>
 	</project>
 	<project>
@@ -188,6 +151,43 @@
 				/img/realizations/Astrea/Astrea_09_low.jpg
 				/img/realizations/Astrea/Astrea_06_low.jpg
 				/img/realizations/Astrea/Astrea_08_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>Aurora_Visit</filename>
+		<title>STUDIO TOUR - AURORA</title>
+		<category>Unity, C#, WebGL, HLSL</category>
+		<image>/projects/resources/Fond_Projets_Aurora.png</image>
+		<date>09.2021 - 11.2021</date>
+		<preview>Visite 360 d'un studio de tournage, accessible depuis un navigateur web</preview>
+		<gallery>
+
+		</gallery>
+	</project>
+	<project>
+		<filename>CMA</filename>
+		<title>CMA - RENCONTRE </title>
+		<category>Unity, C#, AR Fondation, HLSL</category>
+		<image>/projects/resources/Fond_Projets_CMA.jpg</image>
+		<date>11.2021 - 12.2021</date>
+		<preview>Production d'une application de réalité augmentée associée à l'oeuvre 'La Rencontre' de Phil Macquet, exposée à la CMA de Lille. L'application est disponible sur l'Apple Store.</preview>
+		<gallery>
+			<row>
+				/img/realizations/CMA/CMA_08_low.jpg
+				/img/realizations/CMA/CMA_09_low.jpg
+				/img/realizations/CMA/CMA_02_low.jpg
+			</row>
+			<row>
+				/img/realizations/CMA/CMA_03_low.jpg
+				/img/realizations/CMA/CMA_01_low.jpg
+				/img/realizations/CMA/CMA_07_low.jpg
+				/img/realizations/CMA/CMA_05_low.jpg
+			</row>
+			<row>
+				/img/realizations/CMA/CMA_04_low.jpg
+				/img/realizations/CMA/CMA_06_low.jpg
+				/img/realizations/CMA/CMA_10_low.jpg
 			</row>
 		</gallery>
 	</project>
