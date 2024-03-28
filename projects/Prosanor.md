@@ -1,7 +1,7 @@
 ---
 Title : PROSANOR
 Category : Unity, C#, HLSL
-Banner : /projects/resources/Fond_Projets.jpg
+Banner : /projects/resources/Fond_Projets_Prosanor.jpg
 Date : 01.2021 - 07.2021
 Pitch : Création d'environnements et de modules logiques pour une application médicale à destination des troubles de l'anorexie.
 Gallery : 

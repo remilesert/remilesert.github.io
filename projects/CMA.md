@@ -3,7 +3,7 @@ Title : CMA - RENCONTRE
 Category : Unity, C#, AR Fondation, HLSL
 Banner : /projects/resources/Fond_Projets_CMA.jpg
 Date : 11.2021 - 12.2021
-Pitch : Production d'une application de réalité augmentée associée à l'oeuvre \"La Rencontre\" de Phil Macquet, exposée à la CMA de Lille. L'application est disponible sur l'Apple Store.
+Pitch : Production d'une application de réalité augmentée associée à l'oeuvre 'La Rencontre' de Phil Macquet, exposée à la CMA de Lille. L'application est disponible sur l'Apple Store.
 Gallery : 
 <row>
 /img/realizations/CMA/CMA_08_low.jpg
@@ -35,3 +35,14 @@ En collaboration avec le studio V-Cult, nous avons réalisé une application en 
 Il suffit d'ouvrir l'application, de viser l'oeuvre à l'aide de son téléphone.<br> L'application détecte les formes dissimulées dans l'oeuvre et lance les expériences en fonction de l'endroit ou vous visez.  
 <br>
 J'ai pu organiser cette production et géré la relation client. J'ai développé la moitié des interactions ainsi que le shader HLSL servant à l'effet final de jeux à gratter pour révéler une vidéo. Le fond flouté de cette vidéo est lui aussi un shader HLSL sur lequel j'ai travaillé.<br>
+
+<br><br>
+Découvrez l'application : <br>
+
+<div class="project-button-container">
+
+<!-- <a class="py-2 px-3 ms-auto me-3 project-button" href="https://play.google.com/store/apps/details?id=com.sportstracklive.android.ui.activity.unity&hl=fr&gl=US">Android</a> -->
+
+<a class="py-2 px-3 me-auto ms-3 project-button" href="https://apps.apple.com/us/app/cma-rencontre-phil-macquet/id1585996368">iOS</a>
+
+<div>

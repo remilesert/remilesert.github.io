@@ -16,6 +16,17 @@ html #first-prez, html #terref, html #mycyberroyame, html #enseignement, html #f
     text-decoration: none;
 }
 
+.title-second-container p a 
+{
+    
+    color: var(--text-primary);
+}
+
+.title-second-container p a:hover 
+{
+    color: var(--text-secondary);
+}
+
 .navbar-custom a:hover
 {
     color: var(--text-secondary);
@@ -32,7 +43,7 @@ html #first-prez, html #terref, html #mycyberroyame, html #enseignement, html #f
 
 .title-container
 {
-    display: grid;
+    padding-top: 85px;
 }
 
 .title-separator
@@ -283,6 +294,15 @@ html #first-prez, html #terref, html #mycyberroyame, html #enseignement, html #f
     .pitch-line
     {
         height: 4px;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .project-banner
+    {
+        position: absolute; 
+        bottom: 0;
     }
 }
 

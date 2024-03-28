@@ -1,15 +1,10 @@
 ---
 Title : GOODCELLS - MY CYBER ROYAUME
 Category : Unity, C#, WPF, Git, Gitlab, Windows, Powershell, SteamVR API
-Banner : /projects/resources/Fond_Projets.jpg
+Banner : /projects/resources/Fond_Projets_MCR.jpg
 Date : 07.2018 - 08.2020
 Pitch : Application médicale en réalité virtuelle pour evaluer les troubles cognitifs dans un environnement non stressant.
 Gallery : 
-<row>
-/img/realizations/Astrea/Astrea_04_low.jpg
-/img/realizations/Astrea/Astrea_02_low.jpg
-/img/realizations/Astrea/Astrea_01_low.jpg
-</row>
 ---
 
 # GoodCells

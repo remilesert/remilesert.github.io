@@ -15,8 +15,7 @@ $(document).ready(function ()
 
             GenerateRealizationList();
 
-            
-            if (window.location.hash != null) {
+            if (window.location.hash != null && window.location.hash != "") {
                 $(window.location.hash)[0].scrollIntoView({behavior: 'smooth'});
             }
         }
