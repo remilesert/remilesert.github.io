@@ -1,6 +1,6 @@
 ---
 Title : VrRoom Theater
-Category : VR, Metavers
+Category : Unity, C#, URP, Git
 Banner : /projects/resources/Fond_Projets_VRRoom.jpg
 Date : 09.2023 - 01.2024
 Pitch : Réalisation d’un théâtre mélangeant un style victorien et punk sur le metaverse Vrroom.
