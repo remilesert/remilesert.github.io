@@ -51,12 +51,168 @@ html #first-prez, html #terref, html #mycyberroyame, html #enseignement, html #f
     transform: translateX(-50%);
 }
 
+.page 
+{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+    background-color: var(--background-primary);
+}
+
+.project-banner
+{
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+    -webkit-filter: brightness(50%) ;
+    filter: brightness(50%);
+}
+
+.project-header
+{
+    display: flex; 
+    align-items: center;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.project-button-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-button
+{
+    font-size: large;
+    cursor: pointer;
+    border: unset;
+    color: var(--dm-text-primary)!important;    
+    background-color: var(--link)!important;
+    text-decoration: none!important;
+}
+
+.project-button:hover
+{    
+    text-decoration: none!important;
+}
+
+.project-title-container
+{
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 50%;
+    right: 0%;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.pitch-line
+{
+    height: 8px;
+    width: 30%;
+    background-color: var(--line);
+}
+
+.gallery-extra-padding
+{
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+.gallery-modal .modal-content
+{
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-secondary);
+}
+
+.gallery-modal .btn-close
+{
+    filter: invert(1) grayscale(100%) brightness(200%);;
+}
+
+.light-theme .gallery-modal .btn-close
+{
+    filter: unset;
+}
+
+.modal-custom
+{
+    max-width: 80%;
+}
+
+.carousel-item
+{
+    position: relative;
+}
+
+.scale-on-hover
+{
+    transition: transform 330ms ease-in-out;
+}
+
+.scale-on-hover:hover 
+{
+    transform: scale(1.03);
+}
+
+.disable-col-mobile
+{
+    height: inherit;
+}
+
+.img_highres {
+    display: none;
+    width: 100%;
+}
+
+.img_lowres
+{
+    display: block;
+    width: 100%;
+}
+
+#project-pitch
+{
+    font-size: 1.25rem;
+}
+
+@media (max-width: 991px) 
+{ 
+    .project-title-container
+    {
+        position: absolute;
+        top: 60px;
+        bottom: 0;
+        left: 3%;
+        right: 0%;
+        font-size: 1em;
+    }
+
+    .gallery-extra-padding
+    {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
 
 @media (max-width: 768px) 
 {
     .title-second-container
     {
         width: 60%;
+    }
+
+    #project-pitch
+    {
+        font-size: 1rem;
+    }
+
+    .pitch-line
+    {
+        height: 6px;
     }
 }
 
@@ -78,11 +234,55 @@ html #first-prez, html #terref, html #mycyberroyame, html #enseignement, html #f
         width: 50px; 
         margin-top: 7.5px;
     }
-
     
     .title-second-container
     {
         width: 80%;
+    }
+
+    #footer
+    {
+        font-size: 30px;
+    } 
+
+    .mailto-link
+    {
+        font-size: small; 
+    }
+
+    .gallery-extra-padding
+    {
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+    }
+
+    .modal-custom
+    {
+        max-width: 100%;
+    }
+
+    .disable-col-mobile
+    {
+        display: block!important;
+        flex: unset;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+    #project-title
+    {
+        font-size: 1.25rem;
+    }
+
+    #project-pitch
+    {
+        font-size: 0.75rem;
+    }
+
+    .pitch-line
+    {
+        height: 4px;
     }
 }
 
@@ -131,17 +331,4 @@ html #first-prez, html #terref, html #mycyberroyame, html #enseignement, html #f
 .custom-teaching-border
 {
     border-bottom : 1px solid var(--text-primary);
-}
-
-@media (max-width: 576px) 
-{ 
-    #footer
-    {
-        font-size: 30px;
-    } 
-
-    .mailto-link
-    {
-        font-size: small; 
-    }
 }

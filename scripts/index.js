@@ -1,6 +1,5 @@
 var fadeTime = 300;
 var realizationsXML;
-var version = "?V1.0.0"
 
 // Events
 var projectListLoaded = [];
