@@ -50,7 +50,7 @@ function StoreProjectDataThenWriteToList(dirName) {
 
 function IsFileValidProject(fileName)
 {
-    return fileName == "NotFound.html" || fileName == "Example.html" || !fileName.endsWith('.html');
+    return fileName == "NotFound.md" || fileName == "Example.md" || !fileName.endsWith('.md');
 }
 
 function WriteDataToFile(path, data) {
@@ -128,7 +128,7 @@ function GetFileObject(fileName, text) {
 
     var file = {};
     var index = 1;
-    file.FileName = fileName.replace('.html', '');
+    file.FileName = fileName.replace('.md', '');
     file.Title = lineArray[index++].replace('Title : ', '');
     file.Category = lineArray[index++].replace('Category : ', '').replace('\r', '');
     file.Banner = lineArray[index++].replace('Banner : ', '');

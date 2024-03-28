@@ -7,7 +7,7 @@ function LoadAndGetFileObject(fileName, callback) {
 }
 
 function LoadFileText(fileName, callback) {
-    var link = '/projects/' + fileName + '.html';
+    var link = '/projects/' + fileName + '.md';
     fetch(link)
         .then(response => {
             if (!response.ok) throw new Error(response.status);
