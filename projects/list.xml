@@ -15,6 +15,17 @@
 		</gallery>
 	</project>
 	<project>
+		<filename>SportsTrackLive_Map</filename>
+		<title>SPORTSTRACKLIVE - CARTE</title>
+		<category>HLSL, C#</category>
+		<image>/projects/resources/Fond_Projets_Sportstracklive.jpg</image>
+		<date>03.2021 - 05.2021</date>
+		<preview>Production d'une carte haute performance pour l'application sportive mobile SportsTrackLive</preview>
+		<gallery>
+
+		</gallery>
+	</project>
+	<project>
 		<filename>RoomBuilder</filename>
 		<title>ROOM BUILDER</title>
 		<category>Unity, C#, OpenXR</category>
@@ -39,34 +50,23 @@
 		</gallery>
 	</project>
 	<project>
-		<filename>GoodCells</filename>
-		<title>GOODCELLS - MY CYBER ROYAUME</title>
-		<category>Unity, C#, WPF, Git, Gitlab, Windows, Powershell, SteamVR API</category>
-		<image>/projects/resources/Fond_Projets_MCR.jpg</image>
-		<date>07.2018 - 08.2020</date>
-		<preview>Application médicale en réalité virtuelle pour evaluer les troubles cognitifs dans un environnement non stressant.</preview>
-		<gallery>
-
-		</gallery>
-	</project>
-	<project>
-		<filename>SportsTrackLive_Map</filename>
-		<title>SPORTSTRACKLIVE - CARTE</title>
-		<category>HLSL, C#</category>
-		<image>/projects/resources/Fond_Projets_Sportstracklive.jpg</image>
-		<date>03.2021 - 05.2021</date>
-		<preview>Production d'une carte haute performance pour l'application sportive mobile SportsTrackLive</preview>
-		<gallery>
-
-		</gallery>
-	</project>
-	<project>
 		<filename>Prosanor</filename>
 		<title>PROSANOR</title>
 		<category>Unity, C#, HLSL</category>
 		<image>/projects/resources/Fond_Projets_Prosanor.jpg</image>
 		<date>01.2021 - 07.2021</date>
 		<preview>Création d'environnements et de modules logiques pour une application médicale à destination des troubles de l'anorexie.</preview>
+		<gallery>
+
+		</gallery>
+	</project>
+	<project>
+		<filename>GoodCells</filename>
+		<title>GOODCELLS - MY CYBER ROYAUME</title>
+		<category>Unity, C#, WPF, Git, Gitlab, Windows, Powershell, SteamVR API</category>
+		<image>/projects/resources/Fond_Projets_MCR.jpg</image>
+		<date>07.2018 - 08.2020</date>
+		<preview>Application médicale en réalité virtuelle pour evaluer les troubles cognitifs dans un environnement non stressant.</preview>
 		<gallery>
 
 		</gallery>
@@ -131,41 +131,6 @@
 		</gallery>
 	</project>
 	<project>
-		<filename>Astrea</filename>
-		<title>SHOWROOM ATLAS V - ASTREA</title>
-		<category>Unity, VRChat, Udon</category>
-		<image>/projects/resources/Fond_Projets_Astrea.jpg</image>
-		<date>11.2021 - 11.2021</date>
-		<preview>Création d’un espace Metaverse dans lequel les équipes d’Astrea et Atlas V ont pu recevoir leurs partenaires lors de l’événement IDFA DocLAb,<br/>pour discuter autour d'un verre virtuel et présenter leurs différents projets le temps d’une soirée.</preview>
-		<gallery>
-			<row>
-				/img/realizations/Astrea/Astrea_04_low.jpg
-				/img/realizations/Astrea/Astrea_02_low.jpg
-				/img/realizations/Astrea/Astrea_01_low.jpg
-			</row>
-			<row>
-				/img/realizations/Astrea/Astrea_05_low.jpg
-				/img/realizations/Astrea/Astrea_06_low.jpg
-			</row>
-			<row>
-				/img/realizations/Astrea/Astrea_09_low.jpg
-				/img/realizations/Astrea/Astrea_06_low.jpg
-				/img/realizations/Astrea/Astrea_08_low.jpg
-			</row>
-		</gallery>
-	</project>
-	<project>
-		<filename>Aurora_Visit</filename>
-		<title>STUDIO TOUR - AURORA</title>
-		<category>Unity, C#, WebGL, HLSL</category>
-		<image>/projects/resources/Fond_Projets_Aurora.png</image>
-		<date>09.2021 - 11.2021</date>
-		<preview>Visite 360 d'un studio de tournage, accessible depuis un navigateur web</preview>
-		<gallery>
-
-		</gallery>
-	</project>
-	<project>
 		<filename>CMA</filename>
 		<title>CMA - RENCONTRE </title>
 		<category>Unity, C#, AR Fondation, HLSL</category>
@@ -188,6 +153,41 @@
 				/img/realizations/CMA/CMA_04_low.jpg
 				/img/realizations/CMA/CMA_06_low.jpg
 				/img/realizations/CMA/CMA_10_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>Aurora_Visit</filename>
+		<title>STUDIO TOUR - AURORA</title>
+		<category>Unity, C#, WebGL, HLSL</category>
+		<image>/projects/resources/Fond_Projets_Aurora.png</image>
+		<date>09.2021 - 11.2021</date>
+		<preview>Visite 360 d'un studio de tournage, accessible depuis un navigateur web</preview>
+		<gallery>
+
+		</gallery>
+	</project>
+	<project>
+		<filename>Astrea</filename>
+		<title>SHOWROOM ATLAS V - ASTREA</title>
+		<category>Unity, VRChat, Udon</category>
+		<image>/projects/resources/Fond_Projets_Astrea.jpg</image>
+		<date>11.2021 - 11.2021</date>
+		<preview>Création d’un espace Metaverse dans lequel les équipes d’Astrea et Atlas V ont pu recevoir leurs partenaires lors de l’événement IDFA DocLAb,<br/>pour discuter autour d'un verre virtuel et présenter leurs différents projets le temps d’une soirée.</preview>
+		<gallery>
+			<row>
+				/img/realizations/Astrea/Astrea_04_low.jpg
+				/img/realizations/Astrea/Astrea_02_low.jpg
+				/img/realizations/Astrea/Astrea_01_low.jpg
+			</row>
+			<row>
+				/img/realizations/Astrea/Astrea_05_low.jpg
+				/img/realizations/Astrea/Astrea_06_low.jpg
+			</row>
+			<row>
+				/img/realizations/Astrea/Astrea_09_low.jpg
+				/img/realizations/Astrea/Astrea_06_low.jpg
+				/img/realizations/Astrea/Astrea_08_low.jpg
 			</row>
 		</gallery>
 	</project>
