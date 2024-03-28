@@ -1,32 +1,8 @@
 <list>
 	<project>
-		<filename>RoomBuilder</filename>
-		<title>ROOM BUILDER</title>
-		<category>Unity, C#, OpenXR</category>
-		<image>/projects/resources/Fond_Projets_RB.jpg</image>
-		<date>07.2023 - 09.2023</date>
-		<preview>Création d'une application VR d'aménagement de bureau.</preview>
-		<gallery>
-			<row>
-				/img/realizations/Room_Builder/RoomBuilder_01_low.jpg
-				/img/realizations/Room_Builder/RoomBuilder_02_low.jpg
-				/img/realizations/Room_Builder/RoomBuilder_03_low.jpg
-			</row>
-			<row>
-				/img/realizations/Room_Builder/RoomBuilder_04_low.jpg
-				/img/realizations/Room_Builder/RoomBuilder_05_low.jpg
-			</row>
-			<row>
-				/img/realizations/Room_Builder/RoomBuilder_06_low.jpg
-				/img/realizations/Room_Builder/RoomBuilder_07_low.jpg
-				/img/realizations/Room_Builder/RoomBuilder_08_low.jpg
-			</row>
-		</gallery>
-	</project>
-	<project>
 		<filename>VRRoom_Theater</filename>
 		<title>VrRoom Theater</title>
-		<category>VR, Metavers</category>
+		<category>Unity, C#, URP, Git</category>
 		<image>/projects/resources/Fond_Projets_VRRoom.jpg</image>
 		<date>09.2023 - 01.2024</date>
 		<preview>Réalisation d’un théâtre mélangeant un style victorien et punk sur le metaverse Vrroom.</preview>
@@ -53,7 +29,7 @@
 		<filename>Prosanor</filename>
 		<title>PROSANOR</title>
 		<category>Unity, C#, HLSL</category>
-		<image>/projects/resources/Fond_Projets.jpg</image>
+		<image>/projects/resources/Fond_Projets_Prosanor.jpg</image>
 		<date>01.2021 - 07.2021</date>
 		<preview>Création d'environnements et de modules logiques pour une application médicale à destination des troubles de l'anorexie.</preview>
 		<gallery>
@@ -68,11 +44,7 @@
 		<date>07.2018 - 08.2020</date>
 		<preview>Application médicale en réalité virtuelle pour evaluer les troubles cognitifs dans un environnement non stressant.</preview>
 		<gallery>
-			<row>
-				/img/realizations/Astrea/Astrea_04_low.jpg
-				/img/realizations/Astrea/Astrea_02_low.jpg
-				/img/realizations/Astrea/Astrea_01_low.jpg
-			</row>
+
 		</gallery>
 	</project>
 	<project>
@@ -95,43 +67,6 @@
 		</gallery>
 	</project>
 	<project>
-		<filename>CMA</filename>
-		<title>CMA - RENCONTRE </title>
-		<category>Unity, C#, AR Fondation, HLSL</category>
-		<image>/projects/resources/Fond_Projets_CMA.jpg</image>
-		<date>11.2021 - 12.2021</date>
-		<preview>Production d'une application de réalité augmentée associée à l'oeuvre \"La Rencontre\" de Phil Macquet, exposée à la CMA de Lille. L'application est disponible sur l'Apple Store.</preview>
-		<gallery>
-			<row>
-				/img/realizations/CMA/CMA_08_low.jpg
-				/img/realizations/CMA/CMA_09_low.jpg
-				/img/realizations/CMA/CMA_02_low.jpg
-			</row>
-			<row>
-				/img/realizations/CMA/CMA_03_low.jpg
-				/img/realizations/CMA/CMA_01_low.jpg
-				/img/realizations/CMA/CMA_07_low.jpg
-				/img/realizations/CMA/CMA_05_low.jpg
-			</row>
-			<row>
-				/img/realizations/CMA/CMA_04_low.jpg
-				/img/realizations/CMA/CMA_06_low.jpg
-				/img/realizations/CMA/CMA_10_low.jpg
-			</row>
-		</gallery>
-	</project>
-	<project>
-		<filename>Aurora_Visit</filename>
-		<title>STUDIO TOUR - AURORA</title>
-		<category>Unity, C#, WebGL, HLSL</category>
-		<image>/projects/resources/Fond_Projets.jpg</image>
-		<date>09.2021 - 11.2021</date>
-		<preview>Visite 360 d'un studio de tournage, accessible depuis un navigateur web</preview>
-		<gallery>
-
-		</gallery>
-	</project>
-	<project>
 		<filename>Dream_Odyssey</filename>
 		<title>DREAM ODYSSEY </title>
 		<category>Unity, C#, Git, Github, OpenXR, HLSL, Github Actions, GameCI</category>
@@ -143,6 +78,30 @@
 				/img/realizations/DreamOdyssey/Rendus_Chambre/DO_Rendu_1_low.jpg
 				/img/realizations/DreamOdyssey/Rendus_Chambre/DO_Rendu_2_low.jpg
 				/img/realizations/DreamOdyssey/Rendus_Chambre/DO_Rendu_3_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>RoomBuilder</filename>
+		<title>ROOM BUILDER</title>
+		<category>Unity, C#, OpenXR</category>
+		<image>/projects/resources/Fond_Projets_RB.jpg</image>
+		<date>07.2023 - 09.2023</date>
+		<preview>Création d'une application VR d'aménagement de bureau.</preview>
+		<gallery>
+			<row>
+				/img/realizations/Room_Builder/RoomBuilder_01_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_02_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_03_low.jpg
+			</row>
+			<row>
+				/img/realizations/Room_Builder/RoomBuilder_04_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_05_low.jpg
+			</row>
+			<row>
+				/img/realizations/Room_Builder/RoomBuilder_06_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_07_low.jpg
+				/img/realizations/Room_Builder/RoomBuilder_08_low.jpg
 			</row>
 		</gallery>
 	</project>
@@ -169,6 +128,43 @@
 				/img/realizations/Bloom/Bloom_06_low.jpg
 				/img/realizations/Bloom/Bloom_01_low.jpg
 			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>CMA</filename>
+		<title>CMA - RENCONTRE </title>
+		<category>Unity, C#, AR Fondation, HLSL</category>
+		<image>/projects/resources/Fond_Projets_CMA.jpg</image>
+		<date>11.2021 - 12.2021</date>
+		<preview>Production d'une application de réalité augmentée associée à l'oeuvre 'La Rencontre' de Phil Macquet, exposée à la CMA de Lille. L'application est disponible sur l'Apple Store.</preview>
+		<gallery>
+			<row>
+				/img/realizations/CMA/CMA_08_low.jpg
+				/img/realizations/CMA/CMA_09_low.jpg
+				/img/realizations/CMA/CMA_02_low.jpg
+			</row>
+			<row>
+				/img/realizations/CMA/CMA_03_low.jpg
+				/img/realizations/CMA/CMA_01_low.jpg
+				/img/realizations/CMA/CMA_07_low.jpg
+				/img/realizations/CMA/CMA_05_low.jpg
+			</row>
+			<row>
+				/img/realizations/CMA/CMA_04_low.jpg
+				/img/realizations/CMA/CMA_06_low.jpg
+				/img/realizations/CMA/CMA_10_low.jpg
+			</row>
+		</gallery>
+	</project>
+	<project>
+		<filename>Aurora_Visit</filename>
+		<title>STUDIO TOUR - AURORA</title>
+		<category>Unity, C#, WebGL, HLSL</category>
+		<image>/projects/resources/Fond_Projets_Aurora.png</image>
+		<date>09.2021 - 11.2021</date>
+		<preview>Visite 360 d'un studio de tournage, accessible depuis un navigateur web</preview>
+		<gallery>
+
 		</gallery>
 	</project>
 	<project>

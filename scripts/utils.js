@@ -7,7 +7,7 @@ function LoadAndGetFileObject(fileName, callback) {
 }
 
 function LoadFileText(fileName, callback) {
-    var link = '/projects/' + fileName + '.dat';
+    var link = '/projects/' + fileName + '.html';
     fetch(link)
         .then(response => {
             if (!response.ok) throw new Error(response.status);
